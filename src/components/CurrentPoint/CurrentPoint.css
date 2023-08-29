@@ -1,0 +1,137 @@
+.Container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(147, 68, 184); 
+    border-radius: 4px; 
+    box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f; 
+    opacity: .9;
+    width: 600px;
+    height: 255px;
+}
+.iconBtns{
+    text-align: center;
+    position: absolute;
+    z-index: 1000000;
+}
+.hr{
+    border: none;
+}
+.Player1Card2{
+    height: 255px;
+    right: 660px;
+    position: absolute;
+    text-align: center;
+    width:300px;
+    z-index: 10000;
+}
+.Player1Card1{
+  left: 660px;
+    height: 255px;
+    position: absolute;
+    text-align: center;
+    width:300px;
+    align-items: center;
+    z-index: 10000;
+}
+.Player1CardMini{
+    position: relative;
+    left: 80px;
+    width: 145px; 
+    height: 77px; 
+    background: #C76D0DFF; 
+    border-radius: 4px; 
+    box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f; 
+}
+.NewGame{
+    width: 110px; 
+    height: 25px; 
+    background: #FEF6F1FF; 
+    border-radius: 18px; 
+    box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f; 
+}
+.NewGame .icon {
+    width: 16px; 
+    height: 16px; 
+    fill: #323842FF; 
+  }
+  .NewGame:hover {
+    color: #323842FF; 
+    background: #F3F4F6FF; 
+  }
+  .NewGame:hover:active {
+    color: rgb(250, 165, 7); 
+    background: rgb(10, 28, 59); 
+  }
+  .NewGame:disabled {
+    opacity: 0.1; 
+  }
+.role{ 
+    width: 110px; 
+    height: 25px; 
+    padding: 0 12px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-family: Inter; 
+    font-size: 10px; 
+    line-height: 10px; 
+    color: rgb(5, 43, 107); 
+    background: #FFFFFFFF; 
+    opacity: 1; 
+    border: none; 
+    border-radius: 18px; 
+    gap: 6px; 
+  }
+  .role .icon {
+    width: 16px; 
+    height: 16px; 
+    fill: #323842FF; 
+  }
+  .role:hover {
+    color: #323842FF; 
+    background: #F3F4F6FF; 
+  }
+  .role:hover:active {
+    color: #323842FF; 
+    background: #DEE1E6FF; 
+  }
+  .role:disabled {
+    opacity: 0.4; 
+  }
+.leave{
+    width: 80px; 
+    height: 25px; 
+    background: #FEF6F1FF; 
+    border-radius: 18px; 
+    box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
+}
+.leave .icon {
+    width: 16px; 
+    height: 16px; 
+    fill: #323842FF; 
+  }
+  .leave:hover {
+    color: #323842FF; 
+    background: #F3F4F6FF; 
+  }
+  .leave:hover:active {
+    color: #323842FF; 
+    background: rgb(10, 28, 59); 
+  }
+  .leave:disabled {
+    opacity: 0.4; 
+  }
+  #current-player{
+    animation: currentUser;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes currentUser {
+    0%{
+        background: rgba(205, 112, 255, 0.527);
+    }
+    100%{
+        background-color: rgb(204, 110, 255);
+    }
+}

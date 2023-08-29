@@ -1,0 +1,12 @@
+.SetWin{
+    width: 340px;
+    height:170px;
+    position: absolute;
+    right: 790px;
+    top: 380px;
+    text-align: center;
+    background-color: rgb(30, 32, 32);
+    border-radius: 10px;
+    color: antiquewhite;
+    z-index: 10000000;
+}
